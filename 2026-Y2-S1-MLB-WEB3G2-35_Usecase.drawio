@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2026-09-16T18:05:00.000Z" agent="ChatGPT" version="24.7.17">
+  <diagram name="SmartCart Use Case Diagram">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+        <mxCell id="system" value="SmartCart&#xa;Web-based E-Shopping Store" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="1000" height="820" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="actor1" value="Store Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="110" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor2" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="350" width="90" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="actor3" value="System Administrator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="650" width="120" height="120" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="login" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="300" y="80" width="140" height="55" as="geometry"/></mxCell>
+        <mxCell id="logout" value="Logout" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="470" y="80" width="140" height="55" as="geometry"/></mxCell>
+        <mxCell id="validate" value="Validate Credentials" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="380" y="155" width="180" height="55" as="geometry"/></mxCell>
+
+        <mxCell id="vc" value="View Categories" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="270" y="270" width="155" height="55" as="geometry"/></mxCell>
+        <mxCell id="ac" value="Add Category" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="450" y="270" width="145" height="55" as="geometry"/></mxCell>
+        <mxCell id="uc" value="Update Category" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="620" y="270" width="165" height="55" as="geometry"/></mxCell>
+        <mxCell id="dc" value="Delete Category" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="810" y="270" width="165" height="55" as="geometry"/></mxCell>
+
+        <mxCell id="vp" value="View Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="260" y="380" width="155" height="55" as="geometry"/></mxCell>
+        <mxCell id="ap" value="Add Product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="440" y="380" width="145" height="55" as="geometry"/></mxCell>
+        <mxCell id="up" value="Update Product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="610" y="380" width="165" height="55" as="geometry"/></mxCell>
+        <mxCell id="dp" value="Delete Product" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="800" y="380" width="165" height="55" as="geometry"/></mxCell>
+
+        <mxCell id="search" value="Search Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="990" y="380" width="165" height="55" as="geometry"/></mxCell>
+        <mxCell id="filter" value="Filter Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="990" y="455" width="165" height="55" as="geometry"/></mxCell>
+        <mxCell id="browse" value="Browse Products" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="1160" y="455" width="160" height="55" as="geometry"/></mxCell>
+
+        <mxCell id="details" value="View Product Details" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="760" y="535" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="availability" value="Check Product Availability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="970" y="535" width="200" height="55" as="geometry"/></mxCell>
+        <mxCell id="stock" value="Manage Stock / Availability" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="535" y="535" width="200" height="55" as="geometry"/></mxCell>
+
+        <mxCell id="dashboard" value="View Dashboard" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="270" y="670" width="160" height="55" as="geometry"/></mxCell>
+        <mxCell id="ps" value="View Product Statistics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="450" y="755" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="cs" value="View Category Statistics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="655" y="755" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="ss" value="View Stock Statistics" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="860" y="755" width="175" height="55" as="geometry"/></mxCell>
+        <mxCell id="accounts" value="Manage Administrator Accounts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="270" y="590" width="215" height="55" as="geometry"/></mxCell>
+        <mxCell id="access" value="Manage System Access" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1"><mxGeometry x="270" y="755" width="170" height="55" as="geometry"/></mxCell>
+
+        <!-- associations -->
+        <mxCell id="a1e1" edge="1" parent="1" source="actor1" target="login" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e2" edge="1" parent="1" source="actor1" target="logout" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e3" edge="1" parent="1" source="actor1" target="vc" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e4" edge="1" parent="1" source="actor1" target="ac" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e5" edge="1" parent="1" source="actor1" target="uc" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e6" edge="1" parent="1" source="actor1" target="dc" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e7" edge="1" parent="1" source="actor1" target="vp" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e8" edge="1" parent="1" source="actor1" target="ap" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e9" edge="1" parent="1" source="actor1" target="up" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e10" edge="1" parent="1" source="actor1" target="dp" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e11" edge="1" parent="1" source="actor1" target="stock" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a1e12" edge="1" parent="1" source="actor1" target="dashboard" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="a2e1" edge="1" parent="1" source="actor2" target="browse" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2e2" edge="1" parent="1" source="actor2" target="search" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2e3" edge="1" parent="1" source="actor2" target="filter" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2e4" edge="1" parent="1" source="actor2" target="details" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a2e5" edge="1" parent="1" source="actor2" target="availability" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <mxCell id="a3e1" edge="1" parent="1" source="actor3" target="login" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3e2" edge="1" parent="1" source="actor3" target="logout" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3e3" edge="1" parent="1" source="actor3" target="accounts" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a3e4" edge="1" parent="1" source="actor3" target="access" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- include / extend -->
+        <mxCell id="i1" value="&lt;&lt;include&gt;&gt;" edge="1" parent="1" source="login" target="validate" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i2" value="&lt;&lt;include&gt;&gt;" edge="1" parent="1" source="addprod" target="stock" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i3" value="&lt;&lt;include&gt;&gt;" edge="1" parent="1" source="dashboard" target="ps" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i4" value="&lt;&lt;include&gt;&gt;" edge="1" parent="1" source="dashboard" target="cs" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="i5" value="&lt;&lt;include&gt;&gt;" edge="1" parent="1" source="dashboard" target="ss" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x1" value="&lt;&lt;extend&gt;&gt;" edge="1" parent="1" source="search" target="browse" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x2" value="&lt;&lt;extend&gt;&gt;" edge="1" parent="1" source="filter" target="browse" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x3" value="&lt;&lt;extend&gt;&gt;" edge="1" parent="1" source="availability" target="details" style="dashed=1;endArrow=open;html=1;"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
